@@ -27,6 +27,5 @@ result
         LIMIT 5;
         """
 result = pd.read_sql(query, conn)
-result.index = result.index + 1
 result
 
