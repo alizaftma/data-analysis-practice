@@ -1,7 +1,7 @@
 -- Mastery of SELECT, FROM, WHERE, LIMIT, and LIKE
 -- Phase 1: Data Discovery (SELECT & FROM) 
 
--- 1. The "Full Audit": How do you display every single row and column from the Streaming_Data table?<br>
+-- 1. The "Full Audit": How do you display every single row and column from the Streaming_Data table?
   
   query = """
         SELECT *
@@ -10,7 +10,7 @@
 result = pd.read_sql(query, conn)
 result
 
--- 2. The "Quick List": Write a query to show only the title, type, and genre for every entry in the table.<br>
+-- 2. The "Quick List": Write a query to show only the title, type, and genre for every entry in the table.
 
 query = """
         SELECT title, type, genre
