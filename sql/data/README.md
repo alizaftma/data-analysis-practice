@@ -1,7 +1,7 @@
 ## Dataset: Streaming Data (SQL_01_Dataset.xlsx) <br>
 Source: Netflix <br>
 Rows: 10 <br>
-Columns:
+Columns:<br>
 - show_id
 - title
 - type
