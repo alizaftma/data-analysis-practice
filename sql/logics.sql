@@ -16,7 +16,7 @@ result
 query = """
         SELECT title
         FROM Netflix
-        WHERE type NOT LIKE "TV SHOW" AND rating LIKE "%R%";
+        WHERE type NOT LIKE "TV SHOW" AND rating LIKE "%G%";
         """
 result = pd.read_sql(query, conn)
 result
