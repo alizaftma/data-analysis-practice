@@ -16,7 +16,7 @@ result
 query = """
         SELECT title
         FROM Netflix
-        WHERE title LIKE "S%" AND title LIKE "%s" AND genre = "Sci-Fi";
+        WHERE title LIKE "S%s" AND genre = "Sci-Fi";
         """
 result = pd.read_sql(query, conn)
 result
